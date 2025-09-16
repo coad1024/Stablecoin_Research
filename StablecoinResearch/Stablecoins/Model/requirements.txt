@@ -1,0 +1,14 @@
+```pip-requirements
+
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+tqdm
+requests
+torch
+python-dotenv
+pydantic
+graphiti-core
+marker

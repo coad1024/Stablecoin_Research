@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run attack sim",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\tools\\run_attack_sim.py",
+      "args": ["--pool-depth", "5000000", "--target-price", "0.95"],
+      "console": "integratedTerminal",
+      "env": { "PYTHONPATH": "${workspaceFolder}\\source" }
+    }
+  ]
+}

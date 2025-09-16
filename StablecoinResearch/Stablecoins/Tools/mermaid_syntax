@@ -1,0 +1,62 @@
+---
+config:
+  flowchart:
+    curve: basis
+  layout: elk
+---
+flowchart TD
+    S1["S1 Peg Health<br>(Price deviation from $1)"] -- + --> M2["M2 Arbitrage Incentives<br>(Price Differentials)"] & S2["S2 System Confidence"] & S2
+    M2 -- + --> B1["B1 Above-Peg Arbitrage<br>(Burn LUNA → Mint UST)"]
+    R1["R1 Arbitrageurs"] -- + --> B1 & B2["B2 Below-Peg Arbitrage<br>(Burn UST → Mint LUNA)"]
+    B1 -- + --> M1["M1 Mint/Burn Mechanism<br>(Supply Regulation)"] & M3["M3 Seigniorage Distribution<br>(Validator Rewards)"]
+    M1 -- + --> S4["S4 UST Supply<br>(Stablecoin Outstanding)"]
+    M3 -- + --> B4["B4 LUNA Staking<br>(Validator Participation)"]
+    B4 -- + --> S3["S3 LUNA Market Cap<br>(Share Token Value)"]
+    S3 -- + --> S2 & S2
+    S4 -- − --> S1 & S3
+    S1 -- − --> B2
+    B2 -- + --> M1
+    M1 -- − --> S4
+    B2 -- − --> S3
+    S3 -- − --> S2
+    X1["X1 External Market Conditions"] -- + --> S2
+    S2 -- − --> B3["B3 Flight to Safety<br>(Panic Selling)"]
+    R2["R2 Stablecoin Holders"] -- + --> B3
+    B3 -- − --> S1 & S3
+    S2 -- + --> S3
+    R3["R3 LUNA Validators/Stakers"] -- + --> S3
+    X2["X2 Anchor Protocol Yield<br>(20% APY Driver)"] -- + --> S4 & S2
+    S1 -. balEdge .-> Lb1(("B1: Above-Peg Balance")) & Lb2(("B2: Below-Peg Balance"))
+    Lb1 -. balEdge .-> S1
+    Lb2 -. balEdge .-> S1
+    S2 --- reinEdge["reinEdge"]
+    reinEdge ---> Lr(("R: Death Spiral")) & S2
+    Lr --- reinEdge
+     S1:::state
+     S2:::state
+     S3:::state
+     S4:::state
+     M1:::mech
+     M2:::mech
+     M3:::mech
+     R1:::role
+     R2:::role
+     R3:::role
+     B1:::beh
+     B2:::beh
+     B3:::beh
+     B4:::beh
+     X1:::misc
+     X2:::misc
+     Lb1:::balLoop
+     Lb2:::balLoop
+     Lr:::reinLoop
+    classDef state      fill:#FFD54F,stroke:#E65100,stroke-width:2px
+    classDef mech       fill:#81C784,stroke:#1B5E20,stroke-width:2px
+    classDef role       fill:#64B5F6,stroke:#0D47A1,stroke-width:2px
+    classDef beh        fill:#F06292,stroke:#880E4F,stroke-width:2px
+    classDef misc       fill:#BA68C8,stroke:#4A148C,stroke-width:2px
+    classDef balLoop    fill:#4DD0E1,stroke:#006064,stroke-width:3px
+    classDef reinLoop   fill:#FF8A65,stroke:#BF360C,stroke-width:3px
+    classDef balEdge    stroke-dasharray:5 5,stroke:#006064,stroke-width:2px
+    classDef reinEdge   stroke:#BF360C,stroke-width:2px
