@@ -1,0 +1,28 @@
+# Minimal Coderabbit Configuration
+
+# Review triggers
+triggers:
+  pull_request: true
+  push: false
+
+# Scope and rules
+include:
+  - '**/*.py'
+  - '**/*.md'
+  - '**/*.json'
+exclude:
+  - '**/__pycache__/**'
+  - '**/*.ipynb_checkpoints/**'
+
+# Review behavior
+review:
+  summary: true
+  nitpicks: true
+  suggestions: true
+  security: true
+  performance: true
+
+# PR comment settings
+diff:
+  context: 5
+  max_comments: 50
