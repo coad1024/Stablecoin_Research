@@ -1,0 +1,13 @@
+{
+  "event": "Terra UST May 2022 Collapse",
+  "pool_depth": 1000000000,
+  "attack_size": 300000000,
+  "arbitrage": {
+    "mode": "slow",
+    "p_act": 0.1,
+    "r": 0.3
+  },
+  "volatility_regime": "panic",
+  "simulation_horizon_hours": 72,
+  "notes": "Empirical config: Curve pool TVL ≈ $1B, net UST sold ≈ $300M in first 2h, arbitrage overwhelmed. Use for direct comparison with real UST price data."
+}

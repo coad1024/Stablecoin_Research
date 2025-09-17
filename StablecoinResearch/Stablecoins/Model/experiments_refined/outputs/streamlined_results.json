@@ -1,0 +1,182 @@
+[
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.05,
+    "seed": 0,
+    "peg_failure": false,
+    "min_price": 0.9366135366597986,
+    "profit": 48201.71565749147,
+    "final_price": 0.9849541296791273
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.05,
+    "seed": 1,
+    "peg_failure": false,
+    "min_price": 0.9455156491196225,
+    "profit": 49894.498418382835,
+    "final_price": 0.9945174406882936
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.05,
+    "seed": 2,
+    "peg_failure": true,
+    "min_price": 0.9078559677788322,
+    "profit": 45990.89068644191,
+    "final_price": 0.9267655126503717
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.05,
+    "seed": 3,
+    "peg_failure": false,
+    "min_price": 0.9464726048553784,
+    "profit": 46362.68842933816,
+    "final_price": 1.0028847573906292
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.05,
+    "seed": 4,
+    "peg_failure": true,
+    "min_price": 0.8912456088988491,
+    "profit": 48670.38362452923,
+    "final_price": 1.0065892522324382
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.1,
+    "seed": 0,
+    "peg_failure": false,
+    "min_price": 0.9366135366597986,
+    "profit": 91996.57731373643,
+    "final_price": 0.9849541296773447
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.1,
+    "seed": 1,
+    "peg_failure": false,
+    "min_price": 0.863633233399245,
+    "profit": 95153.55051361071,
+    "final_price": 0.9945174407623593
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.1,
+    "seed": 2,
+    "peg_failure": true,
+    "min_price": 0.9055565550107979,
+    "profit": 87868.01394227555,
+    "final_price": 0.9267655126322077
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.1,
+    "seed": 3,
+    "peg_failure": false,
+    "min_price": 0.9464725988415742,
+    "profit": 88562.75971440901,
+    "final_price": 1.0028847573906041
+  },
+  {
+    "pool_depth": 1000000,
+    "attack_size_frac": 0.1,
+    "seed": 4,
+    "peg_failure": true,
+    "min_price": 0.8254968976921814,
+    "profit": 92870.98372399143,
+    "final_price": 1.0065892518662707
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.05,
+    "seed": 0,
+    "peg_failure": false,
+    "min_price": 0.9366135366597986,
+    "profit": 482017.1565749161,
+    "final_price": 0.9849541296791274
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.05,
+    "seed": 1,
+    "peg_failure": false,
+    "min_price": 0.9455156491196224,
+    "profit": 498944.9841838293,
+    "final_price": 0.9945174406882935
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.05,
+    "seed": 2,
+    "peg_failure": true,
+    "min_price": 0.907855967778832,
+    "profit": 459908.9068644196,
+    "final_price": 0.926765512650372
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.05,
+    "seed": 3,
+    "peg_failure": false,
+    "min_price": 0.9464726048553784,
+    "profit": 463626.884293383,
+    "final_price": 1.0028847573906292
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.05,
+    "seed": 4,
+    "peg_failure": true,
+    "min_price": 0.8912456088988493,
+    "profit": 486703.83624529094,
+    "final_price": 1.0065892522324387
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.1,
+    "seed": 0,
+    "peg_failure": false,
+    "min_price": 0.9366135366597986,
+    "profit": 919965.7731373645,
+    "final_price": 0.9849541296773445
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.1,
+    "seed": 1,
+    "peg_failure": false,
+    "min_price": 0.8636332333992452,
+    "profit": 951535.5051361062,
+    "final_price": 0.9945174407623592
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.1,
+    "seed": 2,
+    "peg_failure": true,
+    "min_price": 0.905556555010798,
+    "profit": 878680.1394227576,
+    "final_price": 0.9267655126322079
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.1,
+    "seed": 3,
+    "peg_failure": false,
+    "min_price": 0.9464725988415742,
+    "profit": 885627.5971440896,
+    "final_price": 1.0028847573906041
+  },
+  {
+    "pool_depth": 10000000,
+    "attack_size_frac": 0.1,
+    "seed": 4,
+    "peg_failure": true,
+    "min_price": 0.8254968976921814,
+    "profit": 928709.8372399136,
+    "final_price": 1.006589251866271
+  }
+]

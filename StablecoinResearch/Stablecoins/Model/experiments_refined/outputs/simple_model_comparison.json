@@ -1,0 +1,34 @@
+{
+  "pool_1000000_attack_0.05": {
+    "refined": {
+      "failure_rate": 0.4,
+      "avg_profit": 47824.03536323672,
+      "avg_min_price": 0.9255406734624962,
+      "n_simulations": 5
+    }
+  },
+  "pool_1000000_attack_0.1": {
+    "refined": {
+      "failure_rate": 0.4,
+      "avg_profit": 91290.37704160463,
+      "avg_min_price": 0.8955545643207194,
+      "n_simulations": 5
+    }
+  },
+  "pool_10000000_attack_0.05": {
+    "refined": {
+      "failure_rate": 0.4,
+      "avg_profit": 478240.3536323678,
+      "avg_min_price": 0.9255406734624962,
+      "n_simulations": 5
+    }
+  },
+  "pool_10000000_attack_0.1": {
+    "refined": {
+      "failure_rate": 0.4,
+      "avg_profit": 912903.7704160463,
+      "avg_min_price": 0.8955545643207194,
+      "n_simulations": 5
+    }
+  }
+}

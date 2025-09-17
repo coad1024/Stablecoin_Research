@@ -1,0 +1,73 @@
+pool_depth,delta_s_frac,user_regime,arb_mode,breach_prob,capital_required,total_cost,expected_profit,net_profit,roi_percent,economically_viable,profit_breakdown
+100000,0.005,Normal,Fast,0.0,45.0,45.45,0.0,-45.45,-101.0,False,{}
+100000,0.005,Normal,Moderate,0.0,45.0,45.45,0.0,-45.45,-101.0,False,{}
+100000,0.005,Normal,Slow,0.0,45.0,45.45,0.0,-45.45,-101.0,False,{}
+100000,0.005,Panic,Fast,0.0,45.0,45.45,0.0,-45.45,-101.0,False,{}
+100000,0.005,Panic,Moderate,0.2,45.0,45.45,359.7,314.25,698.3333333333334,True,"{'flash_arbitrage': 7.0, 'options_profit': 25.0, 'leveraged_short': 7.5, 'cross_platform_arb': 120.0, 'mev_extraction': 0.2, 'lp_manipulation': 200.0}"
+100000,0.005,Panic,Slow,0.9,45.0,45.45,1618.65,1573.2,3496.0,True,"{'flash_arbitrage': 31.5, 'options_profit': 112.5, 'leveraged_short': 33.75, 'cross_platform_arb': 540.0, 'mev_extraction': 0.9, 'lp_manipulation': 900.0}"
+100000,0.01,Normal,Fast,0.0,90.0,90.9,0.0,-90.9,-101.0,False,{}
+100000,0.01,Normal,Moderate,0.0,90.0,90.9,0.0,-90.9,-101.0,False,{}
+100000,0.01,Normal,Slow,0.0,90.0,90.9,0.0,-90.9,-101.0,False,{}
+100000,0.01,Panic,Fast,0.0,90.0,90.9,0.0,-90.9,-101.0,False,{}
+100000,0.01,Panic,Moderate,0.4,90.0,90.9,798.8,707.9,786.5555555555555,True,"{'flash_arbitrage': 28.0, 'options_profit': 100.0, 'leveraged_short': 30.0, 'cross_platform_arb': 240.0, 'mev_extraction': 0.8, 'lp_manipulation': 400.0}"
+100000,0.01,Panic,Slow,0.9,90.0,90.9,1797.3,1706.3999999999999,1895.9999999999998,True,"{'flash_arbitrage': 63.0, 'options_profit': 225.0, 'leveraged_short': 67.5, 'cross_platform_arb': 540.0, 'mev_extraction': 1.8, 'lp_manipulation': 900.0}"
+100000,0.025,Normal,Fast,0.0,225.0,227.25,0.0,-227.25,-101.0,False,{}
+100000,0.025,Normal,Moderate,0.0,225.0,227.25,0.0,-227.25,-101.0,False,{}
+100000,0.025,Normal,Slow,0.2,225.0,227.25,518.5,291.25,129.44444444444446,True,"{'flash_arbitrage': 35.0, 'options_profit': 125.0, 'leveraged_short': 37.5, 'cross_platform_arb': 120.0, 'mev_extraction': 1.0, 'lp_manipulation': 200.0}"
+100000,0.025,Panic,Fast,0.0,225.0,227.25,0.0,-227.25,-101.0,False,{}
+100000,0.025,Panic,Moderate,0.5,225.0,227.25,1296.25,1069.0,475.11111111111114,True,"{'flash_arbitrage': 87.5, 'options_profit': 312.5, 'leveraged_short': 93.75, 'cross_platform_arb': 300.0, 'mev_extraction': 2.5, 'lp_manipulation': 500.0}"
+100000,0.025,Panic,Slow,0.9,225.0,227.25,2333.25,2106.0,936.0,True,"{'flash_arbitrage': 157.5, 'options_profit': 562.5, 'leveraged_short': 168.75, 'cross_platform_arb': 540.0, 'mev_extraction': 4.5, 'lp_manipulation': 900.0}"
+100000,0.05,Normal,Fast,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+100000,0.05,Normal,Moderate,0.3,450.0,454.5,1075.5,621.0,138.0,True,"{'flash_arbitrage': 105.0, 'options_profit': 375.0, 'leveraged_short': 112.5, 'cross_platform_arb': 180.0, 'mev_extraction': 3.0, 'lp_manipulation': 300.0}"
+100000,0.05,Normal,Slow,0.8,450.0,454.5,2868.0,2413.5,536.3333333333334,True,"{'flash_arbitrage': 280.0, 'options_profit': 1000.0, 'leveraged_short': 300.0, 'cross_platform_arb': 480.0, 'mev_extraction': 8.0, 'lp_manipulation': 800.0}"
+100000,0.05,Panic,Fast,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+100000,0.05,Panic,Moderate,0.5,450.0,454.5,1792.5,1338.0,297.3333333333333,True,"{'flash_arbitrage': 175.0, 'options_profit': 625.0, 'leveraged_short': 187.5, 'cross_platform_arb': 300.0, 'mev_extraction': 5.0, 'lp_manipulation': 500.0}"
+100000,0.05,Panic,Slow,1.0,450.0,454.5,3585.0,3130.5,695.6666666666667,True,"{'flash_arbitrage': 350.0, 'options_profit': 1250.0, 'leveraged_short': 375.0, 'cross_platform_arb': 600.0, 'mev_extraction': 10.0, 'lp_manipulation': 1000.0}"
+1000000,0.005,Normal,Fast,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+1000000,0.005,Normal,Moderate,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+1000000,0.005,Normal,Slow,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+1000000,0.005,Panic,Fast,0.0,450.0,454.5,0.0,-454.5,-101.0,False,{}
+1000000,0.005,Panic,Moderate,0.2,450.0,454.5,3597.0,3142.5,698.3333333333334,True,"{'flash_arbitrage': 70.0, 'options_profit': 250.0, 'leveraged_short': 75.0, 'cross_platform_arb': 1200.0, 'mev_extraction': 2.0, 'lp_manipulation': 2000.0}"
+1000000,0.005,Panic,Slow,0.9,450.0,454.5,16186.5,15732.0,3496.0,True,"{'flash_arbitrage': 315.0, 'options_profit': 1125.0, 'leveraged_short': 337.5, 'cross_platform_arb': 5400.0, 'mev_extraction': 9.0, 'lp_manipulation': 9000.0}"
+1000000,0.01,Normal,Fast,0.0,900.0,909.0,0.0,-909.0,-101.0,False,{}
+1000000,0.01,Normal,Moderate,0.0,900.0,909.0,0.0,-909.0,-101.0,False,{}
+1000000,0.01,Normal,Slow,0.0,900.0,909.0,0.0,-909.0,-101.0,False,{}
+1000000,0.01,Panic,Fast,0.0,900.0,909.0,0.0,-909.0,-101.0,False,{}
+1000000,0.01,Panic,Moderate,0.4,900.0,909.0,7988.0,7079.0,786.5555555555555,True,"{'flash_arbitrage': 280.0, 'options_profit': 1000.0, 'leveraged_short': 300.0, 'cross_platform_arb': 2400.0, 'mev_extraction': 8.0, 'lp_manipulation': 4000.0}"
+1000000,0.01,Panic,Slow,0.9,900.0,909.0,17973.0,17064.0,1896.0,True,"{'flash_arbitrage': 630.0, 'options_profit': 2250.0, 'leveraged_short': 675.0, 'cross_platform_arb': 5400.0, 'mev_extraction': 18.0, 'lp_manipulation': 9000.0}"
+1000000,0.025,Normal,Fast,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+1000000,0.025,Normal,Moderate,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+1000000,0.025,Normal,Slow,0.2,2250.0,2272.5,5185.0,2912.5,129.44444444444446,True,"{'flash_arbitrage': 350.0, 'options_profit': 1250.0, 'leveraged_short': 375.0, 'cross_platform_arb': 1200.0, 'mev_extraction': 10.0, 'lp_manipulation': 2000.0}"
+1000000,0.025,Panic,Fast,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+1000000,0.025,Panic,Moderate,0.5,2250.0,2272.5,12962.5,10690.0,475.11111111111114,True,"{'flash_arbitrage': 875.0, 'options_profit': 3125.0, 'leveraged_short': 937.5, 'cross_platform_arb': 3000.0, 'mev_extraction': 25.0, 'lp_manipulation': 5000.0}"
+1000000,0.025,Panic,Slow,0.9,2250.0,2272.5,23332.5,21060.0,936.0,True,"{'flash_arbitrage': 1575.0, 'options_profit': 5625.0, 'leveraged_short': 1687.5, 'cross_platform_arb': 5400.0, 'mev_extraction': 45.0, 'lp_manipulation': 9000.0}"
+1000000,0.05,Normal,Fast,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+1000000,0.05,Normal,Moderate,0.3,4500.0,4545.0,10755.0,6210.0,138.0,True,"{'flash_arbitrage': 1050.0, 'options_profit': 3750.0, 'leveraged_short': 1125.0, 'cross_platform_arb': 1800.0, 'mev_extraction': 30.0, 'lp_manipulation': 3000.0}"
+1000000,0.05,Normal,Slow,0.8,4500.0,4545.0,28680.0,24135.0,536.3333333333334,True,"{'flash_arbitrage': 2800.0, 'options_profit': 10000.0, 'leveraged_short': 3000.0, 'cross_platform_arb': 4800.0, 'mev_extraction': 80.0, 'lp_manipulation': 8000.0}"
+1000000,0.05,Panic,Fast,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+1000000,0.05,Panic,Moderate,0.5,4500.0,4545.0,17925.0,13380.0,297.3333333333333,True,"{'flash_arbitrage': 1750.0, 'options_profit': 6250.0, 'leveraged_short': 1875.0, 'cross_platform_arb': 3000.0, 'mev_extraction': 50.0, 'lp_manipulation': 5000.0}"
+1000000,0.05,Panic,Slow,1.0,4500.0,4545.0,35850.0,31305.0,695.6666666666667,True,"{'flash_arbitrage': 3500.0, 'options_profit': 12500.0, 'leveraged_short': 3750.0, 'cross_platform_arb': 6000.0, 'mev_extraction': 100.0, 'lp_manipulation': 10000.0}"
+5000000,0.005,Normal,Fast,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+5000000,0.005,Normal,Moderate,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+5000000,0.005,Normal,Slow,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+5000000,0.005,Panic,Fast,0.0,2250.0,2272.5,0.0,-2272.5,-101.0,False,{}
+5000000,0.005,Panic,Moderate,0.2,2250.0,2272.5,17985.0,15712.5,698.3333333333334,True,"{'flash_arbitrage': 350.0, 'options_profit': 1250.0, 'leveraged_short': 375.0, 'cross_platform_arb': 6000.0, 'mev_extraction': 10.0, 'lp_manipulation': 10000.0}"
+5000000,0.005,Panic,Slow,0.9,2250.0,2272.5,80932.5,78660.0,3496.0,True,"{'flash_arbitrage': 1575.0, 'options_profit': 5625.0, 'leveraged_short': 1687.5, 'cross_platform_arb': 27000.0, 'mev_extraction': 45.0, 'lp_manipulation': 45000.0}"
+5000000,0.01,Normal,Fast,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+5000000,0.01,Normal,Moderate,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+5000000,0.01,Normal,Slow,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+5000000,0.01,Panic,Fast,0.0,4500.0,4545.0,0.0,-4545.0,-101.0,False,{}
+5000000,0.01,Panic,Moderate,0.4,4500.0,4545.0,39940.0,35395.0,786.5555555555555,True,"{'flash_arbitrage': 1400.0, 'options_profit': 5000.0, 'leveraged_short': 1500.0, 'cross_platform_arb': 12000.0, 'mev_extraction': 40.0, 'lp_manipulation': 20000.0}"
+5000000,0.01,Panic,Slow,0.9,4500.0,4545.0,89865.0,85320.0,1896.0,True,"{'flash_arbitrage': 3150.0, 'options_profit': 11250.0, 'leveraged_short': 3375.0, 'cross_platform_arb': 27000.0, 'mev_extraction': 90.0, 'lp_manipulation': 45000.0}"
+5000000,0.025,Normal,Fast,0.0,11250.0,11362.5,0.0,-11362.5,-101.0,False,{}
+5000000,0.025,Normal,Moderate,0.0,11250.0,11362.5,0.0,-11362.5,-101.0,False,{}
+5000000,0.025,Normal,Slow,0.2,11250.0,11362.5,25925.0,14562.5,129.44444444444446,True,"{'flash_arbitrage': 1750.0, 'options_profit': 6250.0, 'leveraged_short': 1875.0, 'cross_platform_arb': 6000.0, 'mev_extraction': 50.0, 'lp_manipulation': 10000.0}"
+5000000,0.025,Panic,Fast,0.0,11250.0,11362.5,0.0,-11362.5,-101.0,False,{}
+5000000,0.025,Panic,Moderate,0.5,11250.0,11362.5,64812.5,53450.0,475.11111111111114,True,"{'flash_arbitrage': 4375.0, 'options_profit': 15625.0, 'leveraged_short': 4687.5, 'cross_platform_arb': 15000.0, 'mev_extraction': 125.0, 'lp_manipulation': 25000.0}"
+5000000,0.025,Panic,Slow,0.9,11250.0,11362.5,116662.5,105300.0,936.0,True,"{'flash_arbitrage': 7875.0, 'options_profit': 28125.0, 'leveraged_short': 8437.5, 'cross_platform_arb': 27000.0, 'mev_extraction': 225.0, 'lp_manipulation': 45000.0}"
+5000000,0.05,Normal,Fast,0.0,22500.0,22725.0,0.0,-22725.0,-101.0,False,{}
+5000000,0.05,Normal,Moderate,0.3,22500.0,22725.0,53775.0,31050.0,138.0,True,"{'flash_arbitrage': 5250.0, 'options_profit': 18750.0, 'leveraged_short': 5625.0, 'cross_platform_arb': 9000.0, 'mev_extraction': 150.0, 'lp_manipulation': 15000.0}"
+5000000,0.05,Normal,Slow,0.8,22500.0,22725.0,143400.0,120675.0,536.3333333333334,True,"{'flash_arbitrage': 14000.0, 'options_profit': 50000.0, 'leveraged_short': 15000.0, 'cross_platform_arb': 24000.0, 'mev_extraction': 400.0, 'lp_manipulation': 40000.0}"
+5000000,0.05,Panic,Fast,0.0,22500.0,22725.0,0.0,-22725.0,-101.0,False,{}
+5000000,0.05,Panic,Moderate,0.5,22500.0,22725.0,89625.0,66900.0,297.3333333333333,True,"{'flash_arbitrage': 8750.0, 'options_profit': 31250.0, 'leveraged_short': 9375.0, 'cross_platform_arb': 15000.0, 'mev_extraction': 250.0, 'lp_manipulation': 25000.0}"
+5000000,0.05,Panic,Slow,1.0,22500.0,22725.0,179250.0,156525.0,695.6666666666667,True,"{'flash_arbitrage': 17500.0, 'options_profit': 62500.0, 'leveraged_short': 18750.0, 'cross_platform_arb': 30000.0, 'mev_extraction': 500.0, 'lp_manipulation': 50000.0}"
